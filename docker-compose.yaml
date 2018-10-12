@@ -1,8 +1,8 @@
 version: '3.5'
 services:
   resume:
-    image: pinyo/node-express
+    image: tpinyo/resume
     ports:
-      - "8000:8000"
+      - "8030:8000"
     command: "node index.js"
 
